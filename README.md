@@ -6,6 +6,8 @@ A demonstration of the Circuit Breaker pattern using Node.js, Express, and the O
 
 This project implements the Circuit Breaker pattern to handle failures gracefully when making calls to external services. The circuit breaker monitors failures and prevents cascading system failures by temporarily blocking requests to failing services.
 
+![Circuit Breaker Pattern](Circuit%20Breaker.jpg)
+
 ## Services
 
 ### Order Service (`order.js`)
